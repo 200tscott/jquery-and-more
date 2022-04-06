@@ -22,7 +22,7 @@ const labels = [
 let data = {
     labels: labels,
     datasets: [{
-    label: 'My First dataset',
+    label: 'First one',
     backgroundColor: 'rgb(255, 100, 100)',
     borderColor: 'rgb(4, 4, 4)',
     data: [0, 10, 5, 2, 20, 30, 45],
@@ -63,7 +63,7 @@ let myChart2 = new Chart(secondChart, {
     data: {
         labels: ['Red', 'white', 'blue'],
         datasets: [{
-            label: '# of Favorites',
+            label: 'Second One',
             data: [5, 10, 15],
             backgroundColor: [
                 'rgb(255, 100, 100)',
